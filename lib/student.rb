@@ -1,5 +1,6 @@
 class Student < User
-@knowledge = []  
+attr_writer :knowledge  
+
 
   
 end 
