@@ -5,7 +5,7 @@ attr_accessor :knowledge
 
 def knowledge 
   @knowledge = knowledge
-  
+end 
   
 def learn
   knowledge.learn << @knowledge
