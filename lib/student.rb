@@ -3,8 +3,12 @@ attr_accessor :knowledge
 
 @knowledge = []
 
+def knowledge 
+  @knowledge = knowledge
+  
+  
 def learn
-  learn
+  knowledge.learn << @knowledge
 end   
 
 
